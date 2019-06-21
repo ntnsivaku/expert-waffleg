@@ -1,7 +1,7 @@
 # expert-waffleg
 
 ## Instructions to reproduce the result
-***
+
 ## Requirements - Python3
  
   If you have Python2, Python3 both installed and you use Python2 by default, you may want to execute the code using Python3
@@ -38,7 +38,7 @@
       -f, --file            Save output to file
       ```
 
-2. Execute this command to crawl 'github.com' and store the crawled results in the file
+2. Execute below command to crawl 'github.com' and store the crawled results in the file
 - `python crawler.py -u https://github.com -d 2 -f`
 - ```
     Nithins-MacBook-Pro:crawl Nithin$ python crawler.py -u https://github.com -d 2 -f
