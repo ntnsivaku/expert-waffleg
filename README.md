@@ -24,7 +24,8 @@
 1. `python crawler.py -h`
    - would print the usage and give you list of options to be specified as an argument
    
-   ```Nithins-MacBook-Pro:crawl Nithin$ python crawler.py -h
+   ```
+      Nithins-MacBook-Pro:crawl Nithin$ python crawler.py -h
       usage: crawler.py [-h] [-u URL [URL ...]] [-d DEPTH] [-f]
 
       optional arguments:
@@ -34,7 +35,8 @@
                              https://github.com
       -d DEPTH, --depth DEPTH maximum depth to crawl
                         
-      -f, --file            Save output to file```
+      -f, --file            Save output to file
+      ```
 
 2. Execute this command to crawl 'github.com' and store the crawled results in the file
 - `python crawler.py -u https://github.com -d 3 -f`
