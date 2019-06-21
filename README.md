@@ -1,17 +1,17 @@
 # expert-waffleg
 
 ## Instructions to reproduce the result
-
+***
 ## Requirements - Python3
  
   If you have Python2, Python3 both installed and you use Python2 by default, you may want to execute the code using Python3
-  ***
+  
   Python2 users, Python3 installed on the system
     eg:- python3 crawler.py -h
-  ***
+  
   Python3 users:
     You can execute normally eg:- python crawler.py
-  ***
+  
 ## Dependencies
 
 * pip install validator_collection
