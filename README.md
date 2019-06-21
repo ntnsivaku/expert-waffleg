@@ -1,1 +1,32 @@
 # expert-waffleg
+
+## Instructions to reproduce the result
+
+## Requirements - Python3
+ 
+  If you have Python2, Python3 both installed and you use Python2 by default, you may want to execute the code using Python3
+
+  Python2 users, Python3 installed on the system
+    eg:- python3 crawler.py -h
+
+  Python3 users:
+    You can execute normally eg:- python crawler.py
+
+## Dependencies
+
+* pip install validator_collection
+* pip install bs4 
+* pip install lxml
+
+- python2 users may want to use pip3
+## Execution
+
+1. `python crawler.py -h`
+   - would print the usage and give you list of options to be specified as an argument
+
+2. Execute this command to crawl 'github.com' and store the crawled results in the file
+- `python crawler.py -u https://github.com -d 3 -f`
+
+### Optional arguments
+- `-u`  Can input one or more urls. All the parent domain crawls will be saved in domain specific filename
+- `-f`  Can leave this blank and results will be printed to console.
