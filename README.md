@@ -39,7 +39,7 @@
       ```
 
 2. Execute this command to crawl 'github.com' and store the crawled results in the file
-- `python crawler.py -u https://github.com -d 3 -f`
+- `python crawler.py -u https://github.com -d 2 -f`
 - ```
     Nithins-MacBook-Pro:crawl Nithin$ python crawler.py -u https://github.com -d 2 -f
     url ['https://github.com'] depth 2 file True
