@@ -39,9 +39,9 @@
       ```
 
 2. Execute below command to crawl 'github.com' and store the crawled results in the file
-- `python crawler.py -u https://github.com -d 2 -f`
+- `python crawler.py -u https://github.com -d 30 -f`
 - ```
-    Nithins-MacBook-Pro:crawl Nithin$ python crawler.py -u https://github.com -d 2 -f
+    Nithins-MacBook-Pro:crawl Nithin$ python crawler.py -u https://github.com -d 30 -f
     url ['https://github.com'] depth 2 file True
     Crawl done. Look for the output file at  /Users/Nithin/Desktop/crawl/github.txt
     ```
